@@ -1,0 +1,9 @@
+.hover-facebook a:hover {
+    background: #3b5998;
+    color: #fff;
+}
+
+.hover-google a:hover {
+    background: #ce453a;
+    color: #fff;
+}
