@@ -192,10 +192,10 @@
                             <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-group"></i><span class="side-menu__label">Partners</span><i class="angle fa fa-angle-right"></i></a>
                             <ul class="slide-menu">
                                 <li>
-                                    <a href="vendor_lists.html" class="slide-item">Partner Lists</a>
+                                    <a href="partner_lists.html" class="slide-item">Partner Lists</a>
                                 </li>
                                 <li>
-                                    <a href="new_vendor.html" class="slide-item">New Partner</a>
+                                    <a href="new_partner.html" class="slide-item">New Partner</a>
                                 </li>
                             </ul>
                         </li>
@@ -403,139 +403,157 @@
                     </div>
                 </div>
                 <!-- End Variable Content -->
+			</div>
 
-                <!-- Partner View Model -->
-                <div class="modal fade" id="partner" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Partner Details</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row ">
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h4><b>Personal Information</b></h4>
-                                                <div class="list-group">
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Profile Image :</h5>
-                                                            <img src="#" alt="img">
-                                                        </div>
-                                                    </a>
-
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Vendor Name :</h5>
-                                                            <p class="text-muted">Narayan Shaw</p>
-                                                        </div>
-                                                    </a>
-
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Gender :</h5>
-                                                            <p class="text-muted">Male</p>
-                                                        </div>
-                                                    </a>
-
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Date Of Birth :</h5>
-                                                            <p class="text-muted">02/10/1995</p>
-                                                        </div>
-                                                    </a>
-
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Qualification :</h5>
-                                                            <p class="text-muted">B.Tech</p>
-                                                        </div>
-                                                    </a>
-
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Id Proof :</h5>
-                                                            <span class="avatar cover-image avatar-xxl bradius" data-image-src="../assets/images/faces/male/4.jpg"></span>
-                                                        </div>
-                                                    </a>
-
-                                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                                        <div class="d-flex w-100 justify-content-between">
-                                                            <h5 class="mb-1">Qualification :</h5>
-                                                            <p class="text-muted">B.Tech</p>
-                                                        </div>
-                                                    </a>
-                                                </div>
+            <!-- Partner View Model -->
+			<div id="partner" class="modal fade viewModal">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content ">
+                        <div class="modal-header pd-x-20">
+                            <h6 class="modal-title">Partner Details</h6>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body pd-60">
+                            <div class="row ">
+                                <div class="col-md-6">
+                                    <h5><b>Personal Information</b></h5>
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Profile Image :</h5>
+                                                <img src="#" alt="img" width="30" height="30">
                                             </div>
-                                        </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Vendor Name :</h5>
+                                                <p class="text-muted">Narayan Shaw</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Gender :</h5>
+                                                <p class="text-muted">Male</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Date Of Birth :</h5>
+                                                <p class="text-muted">02/10/1995</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Qualification :</h5>
+                                                <p class="text-muted">B.Tech</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Id Proof :</h5>
+                                                <img src="#" alt="doc" width="30" height="30">
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Qualification :</h5>
+                                                <p class="text-muted">B.Tech</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Email Address :</h5>
+                                                <p class="text-muted">narayan.shaw121@gmail.com</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Phone Number :</h5>
+                                                <p class="text-muted">7908418253</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h4><b>Privacy policy</b></h4>
-                                                <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5><b>Official Information</b></h5>
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Date of joining :</h5>
+                                                <p class="text-muted">14/10/2019</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h4><b>Using Our Services</b></h4>
-                                                <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences</p>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Department :</h5>
+                                                <p class="text-muted">Account</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h4><b>Terms and Conditions</b></h4>
-                                                <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences</p>
-                                                <ul>
-                                                    <li><i class="fa fa-angle-double-right" ></i> ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores </li>
-                                                    <li><i class="fa fa-angle-double-right" ></i> quas molestias excepturi sint occaecati cupiditate non provident</li>
-                                                    <li><i class="fa fa-angle-double-right" ></i> Nam libero tempore, cum soluta nobis est eligendi optio cumque</li>
-                                                    <li><i class="fa fa-angle-double-right" ></i> Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</li>
-                                                    <li><i class="fa fa-angle-double-right" ></i> repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur a sapiente delectus</li>
-                                                    <li><i class="fa fa-angle-double-right" ></i> ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</li>
-                                                </ul>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Priority :</h5>
+                                                <p class="text-muted">Single</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h4><b>Copyright </b></h4>
-                                                <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences</p>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Work Area :</h5>
+                                                <p class="text-muted">Branch1</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body border">
-                                                <div class="terms">
-                                                    <p>Was this information is Helpful?</p>
-                                                    <a class="btn btn-primary text-white">Yes</a>
-                                                    <a class="btn btn-success text-white">No</a>
-                                                </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Working Pin Code :</h5>
+                                                <p class="text-muted">700051</p>
                                             </div>
-                                        </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Working Days :</h5>
+                                                <p class="text-muted">Sat,sun..</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">Account Number :</h5>
+                                                <p class="text-muted">70845612589</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">IFSC Code :</h5>
+                                                <p class="text-muted">SBIN00154</p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Approve</button>
-                                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                            </div>
+                        </div><!-- modal-body -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Approve</button>
+                            <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
                         </div>
                     </div>
-                </div>
-                <!-- End Partner View Model -->
-
-			</div>
+                </div><!-- modal-dialog -->
+            </div><!-- modal -->
+            <!-- End Partner View Model -->
 
 			<!--footer-->
             <footer class="footer">
